@@ -1,11 +1,15 @@
 # BKlib
 FireDir.pm
-  - chkfile() - existence file check. if the file exists, it retuns 1. if not, it returnes 0.
-  - chkdir() - same with above one. but for directory.
+  - chkfile() - check file. if it exists, it retuns 1. if not, it returns 0.
+  - chkdir() - same with above one. but the subroutine is for directory.
   - makeLIST($LISTFILE,$vsall,$ARGV_Ref) - make pairwise or n x m lists.
 hash.pm
-ReadSNP.pm
+  - MinHash(\$hash_ref) - return minHash.
+  - MaxHash(\$hash_ref) - return maxhash.
 
+ReadSNP.pm
+  - under construction.
+  - 
 stat.pm
   :: simple calculation from array
   - median - calculate median of array
